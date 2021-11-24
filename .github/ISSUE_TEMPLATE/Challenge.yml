@@ -37,10 +37,4 @@ body:
        - 10 ADA
        - 50 ADA
     validations:
-      required: true
-  - type: dropdown
-    id: Bounty-Bonus
-    attributes:
-      label: Bounty Bonus
-      description: Bounty Bonus
-      options:
+      required: true 
