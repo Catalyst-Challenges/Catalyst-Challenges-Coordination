@@ -8,12 +8,12 @@ body:
   - type: dropdown
     id: Challenges
     attributes:
-      label: Challenges
-      description: Challenges
+      label: Challenge
+      description: Challenge
       options:
-       - Urgent
-       - Important
-       - Useful
+       - A.I. & SingularityNet
+       - Boosting Cardano's DeFi
+       - Catalyst - Rapid Funding Mechanisms
     validations:
       required: true
   - type: dropdown
