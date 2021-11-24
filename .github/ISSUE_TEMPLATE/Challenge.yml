@@ -1,7 +1,7 @@
-name: Challenge
-description: Challenge
-title: "Challenge : [Enter here]"
-labels: [Challenge]
+name: Bounty
+description: Bounty Hunter Needed
+title: "Bounty Hunter Needed : [Enter Bounty Title here]"
+labels: [bounty-hunter-needed]
 assignees:
  Raised-By
 body:
@@ -27,17 +27,20 @@ body:
        - Low Complexity
     validations:
       required: true
-   - type: textarea
-    id: Bounty
+  - type: dropdown
+    id: Bounty-Amount
     attributes:
-      label: Bounty Description
-      description: Please describe in detail the Bounty you are raising.
-      render: text
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Bounty-Amount
+      description: Bounty-Amount
       options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+       - 5 ADA
+       - 10 ADA
+       - 50 ADA
+    validations:
+      required: true
+  - type: dropdown
+    id: Bounty-Bonus
+    attributes:
+      label: Bounty Bonus
+      description: Bounty Bonus
+      options:
