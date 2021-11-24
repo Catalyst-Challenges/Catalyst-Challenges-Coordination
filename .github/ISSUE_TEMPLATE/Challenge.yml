@@ -1,0 +1,43 @@
+name: Challenge
+description: Challenge
+title: "Challenge : [Enter here]"
+labels: [Challenge]
+assignees:
+ Raised-By
+body:
+  - type: dropdown
+    id: Bounty-Level
+    attributes:
+      label: Bounty-Level
+      description: Bounty-Level
+      options:
+       - Urgent
+       - Important
+       - Useful
+    validations:
+      required: true
+  - type: dropdown
+    id: Complexity
+    attributes:
+      label: Complexity
+      description: Complexity
+      options:
+       - High Complexity
+       - Medium Complexity
+       - Low Complexity
+    validations:
+      required: true
+   - type: textarea
+    id: Bounty
+    attributes:
+      label: Bounty Description
+      description: Please describe in detail the Bounty you are raising.
+      render: text
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
