@@ -1,16 +1,17 @@
 ---
-title: F7-AI-SingularityNet
-description: How can we create a mutually beneficial partnership with SingularityNet and other A.I. developers and researchers?
-Ideascale: https://cardano.ideascale.com/a/campaign-home/26247
+title: Catalyst-Challenges-Coordination
+description: Provide and maintain a single source of information and documentation.
+Ideascale: https://cardano.ideascale.com/a/dtd/Catalyst-Challenges-Hub/383377-48088
 ---
-![2021-11-24 (1)](https://user-images.githubusercontent.com/25156451/143220952-f8450975-d63d-44e7-8c6c-497d50fa58a4.png)
+
+![2021-11-24 (3)](https://user-images.githubusercontent.com/25156451/143224549-3ff4ab22-456b-4193-9562-a39670b3643c.png)
 
 
-# F7-AI-SingularityNet
+# Catalyst-Challenges-Coordination
 
-How can we create a mutually beneficial partnership with SingularityNet and other A.I. developers and researchers?
+Provide and maintain a single source of information and documentation.
 
-Welcome to the GitHub repository of F7-AI-SingularityNet
+Welcome to the GitHub repository of Catalyst-Challenges-Coordination
 
 ## To participate :
 * Submit issues
