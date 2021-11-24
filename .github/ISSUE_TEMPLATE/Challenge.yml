@@ -1,15 +1,15 @@
-name: Bounty
-description: Bounty Hunter Needed
-title: "Bounty Hunter Needed : [Enter Bounty Title here]"
-labels: [bounty-hunter-needed]
+name: Challenges
+description: Challenges
+title: "Challenges : [Enter here]"
+labels: [Challenges]
 assignees:
  Raised-By
 body:
   - type: dropdown
-    id: Bounty-Level
+    id: Challenges
     attributes:
-      label: Bounty-Level
-      description: Bounty-Level
+      label: Challenges
+      description: Challenges
       options:
        - Urgent
        - Important
